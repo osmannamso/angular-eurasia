@@ -1,0 +1,49 @@
+@import "styles/variables";
+
+form {
+  label {
+    display: block;
+
+    &:first-child {
+      input[type=text] {
+        margin-top: 0;
+      }
+    }
+
+    input[type=text] {
+      width: 300px;
+      padding: 5px;
+      border-radius: 8px;
+      border: 1px solid $gray;
+      margin-top: 10px;
+    }
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    background-color: $light-gray;
+    width: 300px;
+  }
+}
+
+.reviews-cover {
+  .review-item {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 300px;
+    border: 1px solid $gray;
+
+    h2 {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    p {
+      margin: 10px 0 0;
+    }
+  }
+}

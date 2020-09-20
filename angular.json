@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "eurasia"
+    }
+  },
+  "defaultProject": "eurasia",
+  "cli": {
+    "analytics": "d4267afd-e35c-49c2-9654-693296a164ae"
+  }
 }
